@@ -23,6 +23,7 @@ public class OrderServiceImpl implements OrderService {
 
 	@Autowired
 	UserService userService;
+	
 	public List<UserAddress> initOrder(String userId) {
 		// TODO Auto-generated method stub
 		System.out.println("用户id："+userId);
